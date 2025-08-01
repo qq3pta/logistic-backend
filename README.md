@@ -33,8 +33,8 @@ Smart Load Matching System автоматически подбирает топ-
 
 ## Quick Start
 ```bash
-git clone https://github.com/your-org/logistics-load-matching-api.git
-cd logistics-load-matching-api
+git clone https://github.com/qq3pta/logistic-backend.git
+cd logistic-backend
 cp .env.example .env
 docker-compose up -d
 docker-compose exec web python manage.py migrate
