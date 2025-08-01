@@ -6,3 +6,5 @@ django-redis
 gunicorn
 drf-spectacular
 whitenoise
+pytest
+pytest-django
