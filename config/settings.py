@@ -105,7 +105,7 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Logistics Load Matching API',
-    'DESCRIPTION': 'Документация API для системы Load Matching',
+    'TITLE': 'Logistics-backend',
+    'DESCRIPTION': 'Документация API для системы Logistics-backend',
     'VERSION': '1.0.0',
 }
