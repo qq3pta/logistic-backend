@@ -7,6 +7,7 @@ Smart Load Matching System автоматически подбирает топ-
 - [Tech Stack](#tech-stack)
 - [Quick Start](#quick-start)
 - [Configuration](#configuration)
+- [Run auto test](#run-auto-test)
 - [API Endpoints](#api-endpoints)
 - [Authentication](#authentication)
 - [Examples](#examples)
@@ -40,6 +41,15 @@ docker-compose up -d
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --noinput
+```
+**http://localhost:8000/api/schema/swagger/**
+
+**http://localhost:8000/admin/**
+
+
+## Run auto test
+```bash
+docker-compose exec web python -m pytest -q --disable-warnings --maxfail=1
 ```
 
 ## Configuration
