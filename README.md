@@ -33,6 +33,7 @@ Smart Load Matching System автоматически подбирает топ-
 - pytest, pytest-django
 
 ## Quick Start
+**Запустить docker**
 ```bash
 git clone https://github.com/qq3pta/logistic-backend.git
 cd logistic-backend
@@ -61,3 +62,4 @@ POSTGRES_USER=postgres
 POSTGRES_PASSWORD=secret
 DJANGO_SECRET_KEY=<your_secret_key>
 ```
+
