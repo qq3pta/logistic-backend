@@ -2,9 +2,11 @@ __pycache__/
 *.py[cod]
 *.log
 .env
+.idea/
 .venv/
 media/
 staticfiles/
 *.pyc
 *.egg-info/
+
 .DS_Store
